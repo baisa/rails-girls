@@ -1,3 +1,13 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$pills-padding: 150px;
+$button-margin: 150px;
+
+#page_info {
+	padding-left: $pills-padding;
+}
+#page_info_margin {
+	margin-left: $button-margin;
+}
