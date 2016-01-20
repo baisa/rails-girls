@@ -8,11 +8,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<footer>
-  <div class="container">
-    Rails Girls 2015
-  </div>
-</footer>
+
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
 <body>
 
@@ -44,7 +40,11 @@
   </div>
 </nav>
 
-
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
 
 <div class="container">
   <% if notice %>
